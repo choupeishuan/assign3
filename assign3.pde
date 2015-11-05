@@ -70,8 +70,6 @@ void draw() {
   backgroundY++;
   backgroundY %=1281;
   
-  println(backgroundX,backgroundY);
-  
   //fighter
   image(fighterImg,fighterX,fighterY);
   
